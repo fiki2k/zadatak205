@@ -4,13 +4,13 @@
 
 int main(){
 
-  int i,j,r,k=1;
+  int i,j,d,k=1;
 
   printf("Unesi domet : ");
-  scanf("%d",&r);
+  scanf("%d",&d);
 
   printf("\nFLOYD-OV TROKUT : \n\n");
-  for(i=1;i<=r;i++){
+  for(i=1;i<=d;i++){
       for(j=1;j<=i;j++,k++)
            printf(" %d",k);
       printf("\n");
